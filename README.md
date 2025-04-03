@@ -41,6 +41,24 @@ Empacotar / Package
 
 ![image](https://github.com/user-attachments/assets/6a30a50d-725f-4247-911f-ecb87839311b)
 
+## 🛠️ Testando a aplicação / Testing application
+
+Você pode usar uma ferramenta como Postman ou Insomnia para testar esta aplicação
+
+You can use any tool like Postman or Insomnia to test this application
+
+Rode a aplicação com o ``` mvn spring-boot: run ``` aguarde a aplicação subir 
+
+Configure uma requisição GET com a URL
+
+http://localhost:8080/anagram
+
+Na aba Body escolha a opção Plain ou Plain Text a depender de qual aplicação está usando para testar
+
+Informe os caracteres e clique em SEND
+
+![image](https://github.com/user-attachments/assets/27fddc27-3a0d-4d60-a219-3ed45e971d38)
+
 ## 🛠️ Construído com / Built with
 
 * [SpringBoot 3](https://spring.io/projects/spring-boot) - O framework web usado. 
